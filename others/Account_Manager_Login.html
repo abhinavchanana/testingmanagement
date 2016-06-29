@@ -1,0 +1,32 @@
+<?php
+	$connection= mysql_connect("localhost","root","VISHVANATH","testingmanagement");
+	if(!$connection)
+	{
+		die("Databse Connection Failed:". mysql_error());
+	}
+    $db_select = mysql_select_db("testingmanagement",$connection);
+	if(!$db_select)
+	{
+		die("Database connection Failed" . mysql_error());
+	}	
+?>  
+<html>
+	<head>
+		<title>Account_Manager_Login</title>
+	    <link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<div id="div1">
+			<h1 style="text-align:center; padding-top:50px;">Account Manager Login</h1> 
+		</div>
+		<div id="div2">
+			
+		</div>
+		<form action="Account_Manager_Home.php" method="post">
+			<br/><br/><br/><br/>
+			Username : <input type="text" name="username"><br><br>
+			Password : <input type="password" name="password"><br><br><br>
+			<input type="submit" name="submit" value="Sign In">
+		</form>
+	</body>
+</html> 

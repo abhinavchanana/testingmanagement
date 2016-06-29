@@ -1,0 +1,66 @@
+#register{
+	padding-top:100px;
+	margin-left:250px;
+//	border:1px solid blue;
+	width: 1000px;
+	z-index:-100;
+	font-size:20px;
+}
+.insideForm{
+	margin:8px;
+	padding: 8px 0px 8px 100px ;
+	font-size:20px;
+	display:inline-block;
+	width:250px;	
+	text-align:right;	
+	border:1px solid white;
+}
+.getInsideForm{
+	margin-left:5px;
+	padding:5px ;
+	width:300px;
+	background-color:white;
+	font-size:20px;
+	text-align:left;	
+	border:1px solid white;
+	border-radius:5px;
+}
+.getInsideFormRadio{
+	margin-left:25px;	
+}
+.defectDescription{
+	vertical-align:top;
+	margin-top: 15px;
+	width:600px;
+	border-radius:5px;
+	font-size:20px;
+	margin-left:5px;
+	padding :5px;
+	resize: none;
+	height:auto;
+	
+}
+#submit{
+	margin-left: 40%;
+	margin-top:30px;
+	width:150px;
+	height:40px;
+	padding:5px;
+	font: bold 20px times;
+	border-radius:10px ;
+	border:1px solid lightblue;
+	color:darkblue;
+	background-color: lightblue;	
+}
+#reassign{
+	margin-left: 5%;
+	margin-top:30px;
+	width:150px;
+	height:40px;
+	padding:5px;
+	font: bold 20px times;
+	border-radius:10px ;
+	border:1px solid lightblue;
+	color:darkblue;
+	background-color: lightblue;	
+}

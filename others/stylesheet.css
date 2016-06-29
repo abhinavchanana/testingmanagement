@@ -1,0 +1,66 @@
+#div1
+{        
+	position:relative;
+	height:15%;
+	background-color: #80bfff;
+         
+}
+#div2
+{
+	position:absolute;
+	height:85%;
+	width:20%;	
+	background-color: #80bfff;
+	float:left;
+}
+form{
+        padding: 10px;
+        margin:  10px;
+        text-align:center;
+}
+input[type="text"]
+{
+        padding:auto;
+        border:2px solid black;
+        border-radius:5px;
+        width: 150px;
+        height:30px;  
+}
+input[type="password"]
+{
+        padding:auto;
+        border:2px solid black;
+        border-radius:5px;
+        width: 150px;
+        height:30px;  
+}
+input[type="submit"]
+{
+	 background-color:lightgreen;
+         border-radius:5px;  
+         padding:8px;
+         border:2px solid black;
+}
+h1{
+         color:white;
+}
+table{
+        margin: 20px;
+        margin-left: 300px;
+}
+h3{
+        margin-left:25px;
+}
+button{
+         background-color:lightgreen;
+         border-radius:5px;  
+         padding:8px;
+         border:2px solid black;
+}
+textarea
+{
+         margin:30px 50px 20px 20px;
+         border:2px solid black;
+         text-align:left;
+}
+
